@@ -4,7 +4,7 @@ JMove is an Eclipse plugin that provides Move Method refactoring opportunities.
 ![jmove-architecture](/images/arq44.jpg)
 
 ## Installation
-Download the plugin [here](http://aserg.labsoft.dcc.ufmg.br/jmove2/files/JMove.zip)
+Download the plugin [here](https://github.com/aserg-ufmg/jmove/blob/master/JMove.zip)
 
 * Unzip it into the Eclipse directory (e.g., /opt/eclipse)
 * Restart Eclipse and done!
