@@ -1,5 +1,5 @@
 # JMove
-JMove is an Eclipse plugin that indicates Move Method refactoring opportunities based on structural similarity, i.e., the types the method establishes dependency with.
+JMove is an Eclipse plugin that provides Move Method refactoring opportunities based on structural similarity, i.e., the types the method establishes dependency with.
 
 ![jmove-architecture](/images/arq44.jpg)
 
@@ -20,4 +20,7 @@ Download the plugin [here](http://aserg.labsoft.dcc.ufmg.br/jmove2/files/JMove.z
 3. The Move Method recommendations will appear on the JMove view
 ![jmove-3](/images/i3.jpg)
 
-## DataSets
+## Dataset
+
+[Dataset useed in the WCRE paper](https://github.com/aserg-ufmg/jmove/dataset-wcre)
+[Dataset used in the TSE paper (submitted)](https://github.com/aserg-ufmg/jmove/dataset-tse)
