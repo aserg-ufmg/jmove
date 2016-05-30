@@ -23,4 +23,13 @@ Download the plugin [here](http://aserg.labsoft.dcc.ufmg.br/jmove2/files/JMove.z
 ## Dataset
 
 [Dataset useed in the WCRE paper](https://github.com/aserg-ufmg/jmove/dataset-wcre)
+
 [Dataset used in the TSE paper (submitted)](https://github.com/aserg-ufmg/jmove/dataset-tse)
+
+## Publications
+
+Vitor Sales, Ricardo Terra, Luis Fernando Miranda, and Marco Tulio Valente. 
+<a href="http://www.dcc.ufmg.br/~mtov/pub/2013_wcre_jmove.pdf">
+Recommending Move Method Refactorings Using Dependency Sets.</a>
+In <em>20th Working Conference on Reverse Engineering (WCRE)</em>, pages 232-241, 2013. 
+<a style="color:#808080;text-decoration:none" href="https://speakerdeck.com/aserg_ufmg/recommending-move-method-refactorings-using-dependency-sets-wcre-2013"> [Slides]</a> <a style="color:#808080;text-decoration:none" href="http://dx.doi.org/10.1109/WCRE.2013.6671298"> [DOI]</a>
