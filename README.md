@@ -22,7 +22,7 @@ Download the plugin [here](http://aserg.labsoft.dcc.ufmg.br/jmove2/files/JMove.z
 
 ## Dataset
 
-[Dataset useed in the WCRE paper](https://github.com/aserg-ufmg/jmove/dataset-wcre)
+[Dataset used in the WCRE paper](https://github.com/aserg-ufmg/jmove/dataset-wcre)
 
 [Dataset used in the TSE paper (submitted)](https://github.com/aserg-ufmg/jmove/dataset-tse)
 
