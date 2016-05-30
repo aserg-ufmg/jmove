@@ -1,0 +1,8 @@
+method org.apache.tools.ant.types.FileSet::XsetIgnore(String):void need move to org.apache.tools.ant.taskdefs.MatchingTask
+method org.apache.tools.ant.util.ScriptRunnerHelper::executeScript2(Map, Map, ScriptDefBase):void need move to org.apache.tools.ant.taskdefs.optional.script.ScriptDef
+method org.apache.tools.ant.types.Reference::loadProperties(Properties, InputStream, boolean):void need move to org.apache.tools.ant.taskdefs.Property
+method org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.Config::checkAndAddDependants(Hashtable):void need move to org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool
+method org.apache.tools.ant.util.FileUtils::eval2():boolean need move to org.apache.tools.ant.taskdefs.condition.IsFileSelected
+method org.apache.tools.ant.types.selectors.TokenizedPath::isIncluded(TokenizedPath):boolean need move to org.apache.tools.ant.DirectoryScanner
+method org.apache.tools.ant.util.SymbolicLinkUtils::loadLinks(Vector):Properties need move to org.apache.tools.ant.taskdefs.optional.unix.Symlink
+method org.apache.tools.ant.types.CommandlineJava::execute():void need move to org.apache.tools.ant.taskdefs.optional.javacc.JJDoc

@@ -1,0 +1,10 @@
+method org.apache.derby.iapi.sql.dictionary.TablePermsDescriptor::getUncachedTablePermsDescriptor(TablePermsDescriptor):TablePermsDescriptor need move to org.apache.derby.impl.sql.catalog.DataDictionaryImpl
+method org.apache.derby.drda.NetworkServerControl::startSeparateProcess():SpawnedProcess need move to org.apache.derbyTesting.junit.NetworkServerTestSetup
+method org.apache.derbyTesting.system.nstest.utils.DbUtil::startInserts():void need move to org.apache.derbyTesting.system.nstest.init.Initializer
+method org.apache.derby.impl.jdbc.PositionedStoreStream::setBinaryStream(long):java.io.OutputStream need move to org.apache.derby.impl.jdbc.EmbedBlob
+method org.apache.derby.iapi.services.io.LimitInputStream::run():Object need move to org.apache.derby.impl.store.raw.data.StreamFileContainer
+method org.apache.derby.iapi.store.raw.xact.RawTransaction::update(Observable, Object):void need move to org.apache.derby.impl.store.raw.data.BaseContainerHandle
+method org.apache.derby.iapi.util.ByteArray::restoreMe(Transaction, BasePage, LogInstant, LimitObjectInput):void need move to org.apache.derby.impl.store.raw.data.InsertOperation
+method org.apache.derby.iapi.sql.dictionary.TupleDescriptor::buildDescriptor(ExecRow, TupleDescriptor, DataDictionary):TupleDescriptor need move to org.apache.derby.impl.sql.catalog.SYSSTATEMENTSRowFactory
+method org.apache.derby.impl.sql.GenericStatement::lookupStatement(GenericStatement):PreparedStatement need move to org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext
+method org.apache.derby.iapi.tools.i18n.LocalizedInput::caseInfo(mtTestCase):void need move to org.apache.derby.impl.tools.ij.mtGrammar

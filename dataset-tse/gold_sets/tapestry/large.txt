@@ -1,0 +1,10 @@
+method org.apache.tapestry5.ioc.internal.util.IdAllocator::copyMethod2(TransformMethodSignature, int, String):void need move org.apache.tapestry5.internal.services.InternalClassTransformationImpl
+method org.apache.tapestry5.ioc.internal.services.RegistryShutdownHubImpl::findServiceIdsForInterface(Class):List<String> need move org.apache.tapestry5.ioc.internal.RegistryImpl
+method org.apache.tapestry5.corelib.data.InsertPosition::addFormInjector(String, Link, InsertPosition, String):void need move org.apache.tapestry5.internal.services.ClientBehaviorSupportImpl
+method org.apache.tapestry5.corelib.internal.ComponentActionSink::afterRender(MarkupWriter):void need move org.apache.tapestry5.corelib.components.FormFragment
+method org.apache.tapestry5.internal.parser.AttributeToken::newAttributeElement(ComponentResources, AttributeToken):RenderCommand need move org.apache.tapestry5.internal.services.PageElementFactoryImpl
+method org.apache.tapestry5.internal.services.ComponentResultProcessorWrapper::fireValidateFormEvent(EventContext, ComponentResultProcessorWrapper):void need move org.apache.tapestry5.corelib.components.Form
+method org.apache.tapestry5.FieldFocusPriority::autofocus2(FieldFocusPriority, String):void need move org.apache.tapestry5.internal.services.RenderSupportImpl
+method org.apache.tapestry5.services.ComponentEventRequestParameters::handle2(ComponentEventRequestParameters):void need move org.apache.tapestry5.internal.services.AjaxComponentEventRequestHandler
+method org.apache.tapestry5.services.PageRenderRequestParameters::createPageRenderLink2(PageRenderRequestParameters):Link need move org.apache.tapestry5.internal.services.ComponentEventLinkEncoderImpl
+method org.apache.tapestry5.internal.parser.ExtensionPointToken::queueOverrideTokensForExtensionPoint(ExtensionPointToken, Stack<TemplateToken>, List<ComponentTemplate>):void need move org.apache.tapestry5.internal.pageload.PageLoaderImpl

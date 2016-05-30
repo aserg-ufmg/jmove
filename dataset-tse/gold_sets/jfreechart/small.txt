@@ -1,0 +1,10 @@
+- method org.jfree.data.DefaultKeyedValues2D::removeRow(int):void need move org.jfree.data.category.DefaultCategoryDataset
+method org.jfree.chart.ClipPath::setDomainCrosshairLockedOnData(boolean):void need move org.jfree.chart.plot.ContourPlot
+- method org.jfree.data.Range::getItemCount(int):int need move org.jfree.data.time.DynamicTimeSeriesCollection
+method org.jfree.chart.ChartPanel::setFollowDataInSubranges(boolean):void need move org.jfree.chart.plot.JThermometer
+- method org.jfree.chart.event.PlotChangeEvent::plotChanged(PlotChangeEvent):void need move org.jfree.chart.plot.CombinedDomainXYPlot
+method org.jfree.chart.plot.Plot::setPlot(Plot):void need move org.jfree.chart.axis.Axis
+method org.jfree.chart.axis.ValueAxis::setRangeGridlinesVisible(boolean):void need move org.jfree.chart.plot.FastScatterPlot
+method org.jfree.chart.event.TitleChangeEvent::notifyListeners(TitleChangeEvent):void need move org.jfree.chart.title.Title
+method org.jfree.data.general.DatasetGroup::setDatasetGroup(DatasetGroup):void need move org.jfree.chart.plot.Plot
+method org.jfree.chart.PaintMap::setIgnoreNullValues(boolean):void need move org.jfree.chart.plot.PiePlot

@@ -1,0 +1,10 @@
+method org.junit.runner.Result::printFailures(Result):void need move to org.junit.internal.TextListener
+method junit.framework.TestResult::printFooter(TestResult):void need move to junit.textui.ResultPrinter
+method org.junit.runners.model.Statement::apply(Statement, FrameworkMethod, Object):Statement need move to org.junit.rules.TestWatchman
+method org.junit.experimental.theories.ParameterSignature::addFields(ParameterSignature, List<PotentialAssignment>):void need move to org.junit.experimental.theories.internal.AllMembersSupplier
+method org.junit.runner.Description::runBefores():void need move to org.junit.internal.runners.ClassRoadie
+method org.junit.runners.model.Statement::evaluate():void need move to org.junit.internal.runners.statements.ExpectException
+method org.junit.runner.notification.RunNotifier::runTestMethod():void need move to org.junit.internal.runners.MethodRoadie
+method org.junit.runner.manipulation.Filter::filter2(Filter):void need move to org.junit.internal.runners.JUnit38ClassRunner
+method org.junit.runner.manipulation.Filter::filter3(Filter):void need move to org.junit.internal.runners.JUnit4ClassRunner
+method org.junit.runner.Result::printFooter(Result):void need move to org.junit.internal.TextListener

@@ -1,0 +1,8 @@
+method com.mvnforum.admin.CategoryXML::setCategoryOrder(String):void need move com.mvnforum.admin.importexport.mvnforum.MvnForumCategoryXML
+method com.mvnforum.admin.ThreadXML::addJiveThreadWatch(String, String, String):void need move com.mvnforum.admin.importexport.jive.JiveThreadXML
+- method net.myvietnam.mvncore.thirdparty.commonj.util.ThreadPool::isSuspending():boolean need move net.myvietnam.mvncore.thirdparty.commonj.timers.FooTimerManager
+method com.mvnforum.admin.ForumXML::setForumPassword(String):void need move com.mvnforum.admin.importexport.mvnforum.MvnForumForumXML
+- method com.mvnforum.auth.OnlineUserAction::convertGMTDate(java.util.Date):java.util.Date need move com.mvnforum.auth.OnlineUserImpl
+method com.mvnforum.admin.MemberXML::setMemberEmailVisible(String):void need move com.mvnforum.admin.importexport.mvnforum.MvnForumMemberXML
+method com.mvnforum.admin.AttachmentXML::setAttachDownloadCount(String):void need move com.mvnforum.admin.importexport.mvnforum.MvnForumAttachmentXML
+- method net.myvietnam.mvncore.service.BinaryStorageHandle::loadData(String, String, BinaryStorageHandle):byte[] need move net.myvietnam.mvncore.service.impl.BinaryStorageServiceImplBase

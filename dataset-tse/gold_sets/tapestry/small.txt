@@ -1,0 +1,10 @@
+method org.apache.tapestry5.corelib.mixins.RenderDisabled::defaultModel():SelectModel need move org.apache.tapestry5.corelib.components.Select
+method org.apache.tapestry5.internal.services.ComponentRequestHandlerTerminator::buildComponentRequestHandler(List<ComponentRequestFilter>, ComponentRequestHandlerTerminator, Logger):ComponentRequestHandler need move org.apache.tapestry5.services.TapestryModule
+method org.apache.tapestry5.integration.app1.data.SubscribeData::onActionFromClear():void need move org.apache.tapestry5.integration.app1.pages.FormFragmentDemo
+method org.apache.tapestry5.services.BeanBlockContribution::toBlock(BeanBlockContribution):Block need move org.apache.tapestry5.internal.services.BeanBlockOverrideSourceImpl
+method org.apache.tapestry5.corelib.data.BlankOption::setBlankOption(BlankOption, String):void need move org.apache.tapestry5.corelib.components.Select
+method org.apache.tapestry5.corelib.components.Checkbox::getTextFieldTranslator():FieldTranslator need move org.apache.tapestry5.corelib.pages.PropertyEditBlocks
+method org.apache.tapestry5.ioc.services.MethodSignature::failIfNotFrozen():void need move org.apache.tapestry5.internal.services.InternalClassTransformationImpl
+method org.apache.tapestry5.integration.app1.data.Track::getTracks():Set<Track> need move org.apache.tapestry5.integration.app1.pages.GridSetDemo
+method org.example.testapp.services.SpringStatusProvider::onSuccess():void need move org.example.testapp.pages.Start
+method org.apache.tapestry5.corelib.components.BeanEditor::onActionFromClear():void need move org.apache.tapestry5.integration.app1.pages.BeanEditorBeanEditContext

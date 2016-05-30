@@ -1,0 +1,10 @@
+method edu.rice.cs.drjava.model.repl.InteractionsScriptModel::setActionsDisabled():void need move to edu.rice.cs.drjava.ui.InteractionsScriptController
+method edu.rice.cs.drjava.model.junit.JUnitError::progressReset(int):void need move to edu.rice.cs.drjava.ui.JUnitPanel
+- method edu.rice.cs.drjava.model.definitions.DefinitionsEditorKit::closeProject(boolean):void need move to edu.rice.cs.drjava.model.AbstractGlobalModel
+method edu.rice.cs.drjava.model.MovingDocumentRegion::disableFindAgain():void need move to edu.rice.cs.drjava.ui.FindResultsPanel
+method edu.rice.cs.drjava.ui.config.ConfigFrame::resetDebugFrame():void need move to edu.rice.cs.drjava.ui.MainFrame
+method edu.rice.cs.drjava.config.ConfigOptionListeners.SlaveJVMXMXListener::getSelectedCompilerErrorPanel():CompilerErrorPanel need move to edu.rice.cs.drjava.ui.MainFrame
+method edu.rice.cs.drjava.model.DJError::getPosition(DJError):Position need move to edu.rice.cs.drjava.model.compiler.CompilerErrorModel
+- method edu.rice.cs.drjava.model.repl.newjvm.MainJVM::junitJVMReady():void need move to edu.rice.cs.drjava.model.junit.DefaultJUnitModel
+method edu.rice.cs.drjava.model.AbstractDJDocument::testSecondLineMisindented():void need move to edu.rice.cs.drjava.model.definitions.indent.ActionStartPrevLinePlusTest
+- method edu.rice.cs.drjava.ui.InteractionsController::tempFile(int):File need move to edu.rice.cs.drjava.model.GlobalModelTestCase

@@ -1,0 +1,10 @@
+- method org.apache.lucene.codecs.SegmentInfoFormat::docValuesFormat():DocValuesFormat need move org.apache.lucene.codecs.lucene41.Lucene41Codec
+method org.apache.lucene.facet.params.FacetIndexingParams::testAndOrs():void need move org.apache.lucene.facet.search.DrillDownQueryTest
+- method org.apache.lucene.analysis.ja.dict.UserDictionary::create(Reader):Tokenizer need move org.apache.lucene.analysis.ja.JapaneseTokenizerFactory
+method org.apache.lucene.analysis.util.RollingCharBuffer::normalizeIterationMark(char):char need move org.apache.lucene.analysis.ja.JapaneseIterationMarkCharFilter
+- method org.apache.lucene.codecs.FieldInfosFormat::postingsFormat():PostingsFormat need move org.apache.lucene.codecs.simpletext.SimpleTextCodec
+method org.apache.lucene.util.automaton.CharacterRunAutomaton::getEnablePositionIncrements():boolean need move org.apache.lucene.analysis.MockTokenFilter
+method org.apache.lucene.facet.params.FacetSearchParams::getDrillDownAccumulator(FacetSearchParams):FacetsAccumulator need move org.apache.lucene.facet.search.DrillSideways
+- method org.apache.lucene.search.similarities.Similarity::setReaderTermsIndexDivisor(int):LiveIndexWriterConfig need move org.apache.lucene.index.LiveIndexWriterConfig
+- method org.apache.lucene.facet.complements.TotalFacetCounts::getComplementThreshold():double need move org.apache.lucene.facet.search.StandardFacetsAccumulator
+method org.apache.lucene.benchmark.byTask.utils.Algorithm::getRunData():PerfRunData need move org.apache.lucene.benchmark.byTask.Benchmark

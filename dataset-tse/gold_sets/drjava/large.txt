@@ -1,0 +1,10 @@
+method edu.rice.cs.drjava.config.ConfigOptionListeners.RequiresInteractionsRestartListener::_setupNotificationsPanel(ConfigPanel):void need move to edu.rice.cs.drjava.ui.config.ConfigFrame
+method edu.rice.cs.drjava.model.TestDocGetter::testConstructOneDocWithoutLineNums():void need move to edu.rice.cs.drjava.model.compiler.CompilerErrorModelTest
+method edu.rice.cs.drjava.ui.MainFrame::testNE():void need move to edu.rice.cs.drjava.CommandLineTest
+method edu.rice.cs.util.swing.FileChooser::_runCommand():void need move to edu.rice.cs.drjava.ui.ExecuteExternalDialog
+method edu.rice.cs.util.swing.DelegatingAction::_installNewDocumentListener(OpenDefinitionsDocument):void need move to edu.rice.cs.drjava.ui.MainFrame
+method edu.rice.cs.drjava.model.GlobalEventNotifier::testCommentOutMultipleLines():void need move to edu.rice.cs.drjava.model.definitions.CommentTest
+method edu.rice.cs.util.swing.DirectoryChooser::_setUpLanguageLevelMenu(int, boolean):JMenu need move to edu.rice.cs.drjava.ui.MainFrame
+method edu.rice.cs.drjava.model.FindReplaceMachine::findPrevious():void need move to edu.rice.cs.drjava.ui.FindReplacePanel
+method edu.rice.cs.drjava.ui.config.VectorFileOptionComponent::reset2():void need move to edu.rice.cs.drjava.ui.ProjectPropertiesFrame
+method edu.rice.cs.drjava.model.repl.InteractionsDJDocument::testHistoryRecallNextMovesToEnd():void need move to edu.rice.cs.drjava.ui.InteractionsPaneTest

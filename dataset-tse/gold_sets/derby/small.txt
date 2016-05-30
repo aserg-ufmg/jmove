@@ -1,0 +1,10 @@
+method org.apache.derby.client.net.NetConnectionReply::getInputStream():java.io.InputStream need move to org.apache.derby.client.net.NetAgent
+- method org.apache.derby.impl.store.access.btree.OpenBTree::lockScanRow(OpenBTree, BTree, BTreeRowPosition, FetchDescriptor, DataValueDescriptor[], RowLocation, boolean, boolean, int):boolean need move to org.apache.derby.impl.store.access.btree.index.B2IRowLocking1
+method org.apache.derby.iapi.sql.dictionary.IndexRowGenerator::setConglomerateNumber(long):void need move to org.apache.derby.impl.sql.catalog.IndexInfoImpl
+method org.apache.derby.jdbc.ClientConnectionPoolDataSource40::getParentLogger():Logger need move to org.apache.derbyTesting.functionTests.tests.jdbc4.Wrapper41DataSource
+- method org.apache.derby.client.net.NetPackageReply::resetAgent_(org.apache.derby.client.am.LogWriter, int, String, int):void need move to org.apache.derby.client.net.NetAgent
+method org.apache.derby.iapi.types.SQLInteger::isUpdated():boolean need move to org.apache.derby.impl.sql.execute.ScrollInsensitiveResultSet
+- method org.apache.derby.vti.Restriction::getFloat(int):float need move to org.apache.derbyTesting.functionTests.tests.lang.RestrictedTableVTI
+method org.apache.derby.iapi.sql.dictionary.PermDescriptor::getUncachedGenericPermDescriptor(PermDescriptor):PermDescriptor need move to org.apache.derby.impl.sql.catalog.DataDictionaryImpl
+- method org.apache.derby.iapi.sql.dictionary.GenericDescriptorList::setRefActionInfo(long, int[], String, boolean):void need move to org.apache.derby.impl.sql.compile.DMLModStatementNode
+- method org.apache.derby.impl.sql.compile.SubqueryList::setSharedState(String, java.io.Serializable):void need move to org.apache.derby.impl.sql.compile.FromVTI

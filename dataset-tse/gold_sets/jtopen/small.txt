@@ -1,0 +1,10 @@
+method com.ibm.as400.access.NPCPAttributeIDList::readObject(java.io.ObjectInputStream):void need move com.ibm.as400.access.PrintObjectList
+method com.ibm.as400.access.SystemValueList::removeWorkingListener(WorkingListener):void need move com.ibm.as400.vaccess.VSystemValueList
+method com.ibm.as400.access.FileEvent::fileOpened(FileEvent):void need move com.ibm.as400.vaccess.FileEventSupport
+method com.ibm.as400.access.RecordFormat::setColumnLabel(int, String):void need move com.ibm.as400.util.servlet.RecordFormatMetaData
+method com.ibm.as400.vaccess.SQLMetaDataTablePane::readObject(java.io.ObjectInputStream):void need move com.ibm.as400.vaccess.SQLQueryFieldsPane
+method com.ibm.as400.access.SystemPool::removeErrorListener(ErrorListener):void need move com.ibm.as400.vaccess.VSystemPool
+method com.ibm.as400.resource.ProgramMap::end():void need move com.ibm.as400.access.NetServerSession
+method com.ibm.as400.access.ActionCompletedEvent::actionCompleted(ActionCompletedEvent):void need move com.ibm.as400.vaccess.ActionCompletedEventSupport
+method com.ibm.as400.access.SequentialFile::getFileName():String need move com.ibm.as400.vaccess.RecordListData
+method com.ibm.as400.access.DataQueueEvent::cleared(DataQueueEvent):void need move com.ibm.as400.vaccess.DataQueueEventSupport

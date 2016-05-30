@@ -1,0 +1,20 @@
+method org.jhotdraw.draw.DrawingEditorProxy::fireAreaInvalidated2():void need move to org.jhotdraw.draw.tool.AbstractTool
+method org.jhotdraw.draw.GridConstrainer::getSharedEditor():DefaultDrawingEditor need move to org.jhotdraw.samples.svg.SVGApplicationModel
+method org.jhotdraw.gui.JPopupButton::setView(DrawingView):void need move to org.jhotdraw.samples.odg.ODGPropertiesPanel
+method org.jhotdraw.draw.event.HandleMulticaster::draw2(Graphics2D):void need move to org.jhotdraw.draw.tool.DefaultHandleTracker
+method org.jhotdraw.draw.text.FloatingTextField::creationFinished(Figure):void need move to org.jhotdraw.draw.tool.TextCreationTool
+method org.jhotdraw.geom.Dimension2DDouble::findFigureInside(Point2D.Double):Figure need move to org.jhotdraw.draw.QuadTreeCompositeFigure
+method org.jhotdraw.gui.JLifeFormattedTextField::getConstrainer():GridConstrainer need move to org.jhotdraw.draw.action.EditGridPanel
+method org.jhotdraw.app.OSXApplication::addPalette(Window):void need move to org.jhotdraw.app.osx.OSXPaletteHandler
+method org.jhotdraw.draw.event.FigureSelectionEvent::selectionChanged(FigureSelectionEvent):void need move to org.jhotdraw.draw.action.PickAttributesAction
+method org.jhotdraw.util.ResourceBundleUtil::canUngroup():boolean need move to org.jhotdraw.samples.svg.action.CombineAction
+method org.jhotdraw.samples.svg.gui.CanvasToolBar::setDrawing(Drawing):void need move org.jhotdraw.samples.svg.SVGDrawingPanel
+method org.jhotdraw.gui.JFileURIChooser::initActions():void need move org.jhotdraw.samples.odg.ODGView
+method org.jhotdraw.draw.DefaultDrawingView::setDrawing(Drawing):void need move org.jhotdraw.samples.draw.DrawingPanel
+method net.n3.nanoxml.XMLElement::save2(OutputStream):void need move org.jhotdraw.xml.NanoXMLDOMOutput
+method org.jhotdraw.samples.svg.figures.SVGPathFigure::writePolylineElement(IXMLElement, SVGPathFigure):void need move org.jhotdraw.samples.svg.io.ImageMapOutputFormat
+method org.jhotdraw.color.JHarmonicColorWheel::mixerDisclosurePerformed(java.awt.event.ActionEvent):void need move org.jhotdraw.samples.color.JMixer
+method org.jhotdraw.draw.event.SelectionComponentDisplayer::initComponents():void need move org.jhotdraw.samples.svg.gui.StrokeToolBar
+method org.jhotdraw.draw.gui.JAttributeTextField::setDrawing(Drawing):void need move org.jhotdraw.draw.action.EditCanvasPanel
+method org.jhotdraw.geom.QuadTree::getFiguresFrontToBack2():java.util.List<Figure> need move org.jhotdraw.draw.QuadTreeDrawing
+method org.jhotdraw.draw.BezierFigure::isToolDoneAfterCreation():boolean need move org.jhotdraw.draw.tool.BezierTool

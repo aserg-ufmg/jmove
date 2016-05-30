@@ -1,0 +1,20 @@
+method org.jhotdraw.samples.draw.DrawingPanel::load(java.awt.event.ActionEvent):void need move to org.jhotdraw.samples.draw.DrawLiveConnectApplet
+method org.jhotdraw.gui.JMDIDesktopPane::show(View):void need move to org.jhotdraw.app.MDIApplication
+method org.jhotdraw.draw.text.FloatingTextArea::endEdit():void need move to org.jhotdraw.draw.tool.TextAreaCreationTool
+method org.jhotdraw.io.StreamPosTokenizer::readViewportAttributes(IXMLElement, HashMap<AttributeKey,Object>):void need move to org.jhotdraw.samples.svg.io.SVGInputFormat
+method org.jhotdraw.gui.JFontChooser::applySelectedFontToFigures():void need move to org.jhotdraw.draw.action.FontChooserHandler
+method org.jhotdraw.undo.UndoRedoManager::getLineOfOffset(int):int need move to org.jhotdraw.samples.teddy.TeddyView
+method org.jhotdraw.samples.teddy.regex.Matcher::initComponents():void need move to org.jhotdraw.samples.teddy.FindDialog
+method org.jhotdraw.draw.AttributeKey::calculateLayout2():Rectangle2D.Double need move to org.jhotdraw.draw.layouter.LocatorLayouter
+method org.jhotdraw.samples.svg.gui.ViewToolBar::setEditor():void need move to org.jhotdraw.samples.svg.SVGDrawingPanel
+method org.jhotdraw.samples.svg.gui.ProgressIndicator::loadDrawing():Drawing need move to org.jhotdraw.samples.svg.SVGApplet
+method org.jhotdraw.draw.AttributeKey::getDrawingArea2():Rectangle2D.Double need move to org.jhotdraw.draw.DiamondFigure
+method org.jhotdraw.geom.BezierPath.Node::trackEnd2(Point, Point, int):void need move to org.jhotdraw.draw.handle.BezierNodeHandle
+method org.jhotdraw.samples.svg.SVGDrawingPanel::getOpenChooser():JFileChooser need move to org.jhotdraw.samples.mini.SVGDrawingPanelSample
+method org.jhotdraw.geom.BezierPath::chop(Point2D.Double):Point2D.Double need move to org.jhotdraw.draw.BezierFigure
+method org.jhotdraw.samples.odg.io.ODGStylesReader::readEnhancedGeometryElement(IXMLElement, Map<AttributeKey,Object>, Rectangle2D.Double):ODGFigure need move to org.jhotdraw.samples.odg.io.ODGInputFormat
+method org.jhotdraw.draw.connector.LocatorConnector::findCompatibleConnector(Connector, boolean):Connector need move to org.jhotdraw.samples.net.figures.NodeFigure
+method org.jhotdraw.samples.svg.figures.SVGTextAreaFigure::writeTextAreaElement(IXMLElement, SVGTextAreaFigure):void need move to org.jhotdraw.samples.svg.io.SVGOutputFormat
+method net.n3.nanoxml.XMLElement::print():void need move to org.jhotdraw.xml.NanoXMLDOMOutput
+method org.jhotdraw.app.OSXApplication::setPalette():void need move to org.jhotdraw.app.action.window.TogglePaletteAction
+method org.jhotdraw.draw.event.HandleMulticaster::updateHoverHandles():void need move to org.jhotdraw.draw.tool.DefaultHandleTracker

@@ -1,0 +1,10 @@
+method org.jgroups.stack.Protocol::down(Event):Object need move org.jgroups.protocols.pbcast.NAKACK
+method org.jgroups.JChannel::findParentNode(String, StringHolder, boolean):Node need move org.jgroups.blocks.ReplicatedTree
+method org.jgroups.stack.ProtocolStack::testDefaultAssignment():void need move org.jgroups.tests.ProtocolConfigurationTest
+method org.jgroups.util.Queue::up(Event):Object need move org.jgroups.JChannel
+method org.jgroups.util.AckCollector::fetchServiceStates(Address, Set<String>, long):boolean need move org.jgroups.mux.Multiplexer
+method org.jgroups.util.BoundedList::determinePingDest():Address need move org.jgroups.protocols.FD_SOCK
+method org.jgroups.util.Digest::rebroadcastMessages():void need move org.jgroups.protocols.pbcast.NAKACK
+method org.jgroups.stack.IpAddress::testStreamableAdditionalData():void need move org.jgroups.tests.IpAddressTest
+method org.jgroups.util.Promise::sendNotification(Serializable):void need move org.jgroups.blocks.NotificationBus
+method org.jgroups.stack.NakReceiverWindow::testConcurrentInsertionOfSameSeqno():void need move org.jgroups.tests.NakReceiverWindowTest2

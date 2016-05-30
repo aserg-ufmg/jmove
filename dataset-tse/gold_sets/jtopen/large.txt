@@ -1,0 +1,10 @@
+method com.ibm.as400.access.FTPThread::readObject(java.io.ObjectInputStream):void need move com.ibm.as400.access.FTP
+method com.ibm.as400.vaccess.SQLMetaDataTableModel::readObject(java.io.ObjectInputStream):void need move com.ibm.as400.vaccess.SQLMetaDataTablePane
+method com.ibm.as400.data.ProgramCallDocument::endInternal(int):void need move com.ibm.as400.resource.RJob
+method com.ibm.as400.util.html.HTMLVector::readObject(java.io.ObjectInputStream):void need move com.ibm.as400.util.html.HTMLTree
+method com.ibm.as400.resource.IntegerValueMap::start():void need move com.ibm.as400.access.NetServer
+method com.ibm.as400.vaccess.SQLResultSetTableModel::readObject(java.io.ObjectInputStream):void need move com.ibm.as400.vaccess.SQLResultSetTablePane
+method com.ibm.as400.access.SpooledFile::applyChanges():void need move com.ibm.as400.vaccess.OutputPropertiesPane
+method com.ibm.as400.access.AS400JDBCDataSource::applyChanges():boolean need move com.ibm.as400.vaccess.AS400JDBCDataSourcePane
+method com.ibm.as400.access.Permission::removeRow(int):void need move com.ibm.as400.vaccess.PermissionTableModelQSYS
+method com.ibm.as400.access.AS400ZonedDecimal::addToHashtable(PcmlDocNode):void need move com.ibm.as400.data.PcmlDocument

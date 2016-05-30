@@ -1,0 +1,10 @@
+- method org.jgroups.Event::passToAllMuxChannels(Event):void need move org.jgroups.mux.Multiplexer
+method org.jgroups.stack.AckReceiverWindow::getList():List<Message> need move org.jgroups.tests.AckReceiverWindowTest.Remover
+method org.jgroups.util.TimeScheduler::getNumberOfReceiverScopes():int need move org.jgroups.protocols.SCOPE
+method org.jgroups.Membership::fixDigests():void need move org.jgroups.protocols.pbcast.GMS
+method org.jgroups.blocks.DistributedTree::clearTable():void need move org.jgroups.demos.DistributedTreeDemo
+method org.jgroups.blocks.RpcDispatcher::setNumMessages():void need move org.jgroups.tests.UnicastTestRpc
+- method org.jgroups.blocks.DistributedQueue::entryAdd(Object):void need move org.jgroups.demos.DistributedQueueDemo
+- method org.jgroups.util.UUID::stopFlush(List<Address>):void need move org.jgroups.JChannel
+method org.jgroups.util.MutableDigest::testImmutability4():void need move org.jgroups.tests.DigestTest
+method org.jgroups.blocks.MessageDispatcher::test2000ByteMessageToSelf():void need move org.jgroups.tests.MessageDispatcherUnitTest

@@ -1,0 +1,10 @@
+method org.junit.runner.notification.RunNotifier::addFailure(Throwable):void need move to org.junit.internal.runners.ClassRoadie
+method org.junit.runners.model.TestClass::getArgumentStrings(boolean):Object[] need move to org.junit.experimental.theories.internal.Assignments
+method org.junit.runner.Runner::run2(TestResult):void need move to junit.framework.JUnit4TestAdapter
+method junit.framework.AssertionFailedError::addFailure2(Test, AssertionFailedError):void need move to junit.textui.ResultPrinter
+method org.junit.runners.model.TestClass::getAllArguments(boolean):Object[] need move to org.junit.experimental.theories.internal.Assignments
+method org.junit.runner.Request::sortRequest(Request):Request need move to org.junit.experimental.max.MaxCore
+method org.junit.runner.notification.RunListener::removeListener(RunListener):void need move to org.junit.runner.JUnitCore
+method org.junit.runner.Description::apply(Statement, Description):Statement need move to org.junit.rules.Timeout
+method org.junit.runners.model.RunnerBuilder::runnerForClass2(Class<?>):Runner need move to org.junit.internal.builders.AnnotatedBuilder
+method org.junit.runner.manipulation.Filter::filterWith2(Filter):Request need move to org.junit.runner.Request

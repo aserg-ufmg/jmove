@@ -1,0 +1,10 @@
+method org.jfree.chart.plot.PlotState::draw2(Graphics2D, Rectangle2D, Point2D, PlotState, PlotRenderingInfo):void need move org.jfree.chart.plot.dial.DialPlot
+method org.jfree.data.RangeType::autoAdjustRange2():void need move org.jfree.chart.axis.NumberAxis
+method org.jfree.chart.ChartRenderingInfo::doSaveAs():void need move org.jfree.experimental.chart.swt.ChartComposite
+method org.jfree.chart.axis.AxisLocation::draw2(Graphics2D, Rectangle2D, Object):Object need move org.jfree.chart.title.PaintScaleLegend
+method org.jfree.chart.LegendItemCollection::drawDomainMarkers(Graphics2D, Rectangle2D, int, Layer):void need move org.jfree.chart.plot.XYPlot
+method org.jfree.chart.block.RectangleConstraint::arrange2(Graphics2D, RectangleConstraint):Size2D need move org.jfree.chart.title.LegendGraphic
+method org.jfree.chart.title.Title::drawTitle(Title, Graphics2D, Rectangle2D, boolean):EntityCollection need move org.jfree.chart.JFreeChart
+method org.jfree.chart.JFreeChart::testReplaceDataset():void need move org.jfree.chart.junit.StackedBarChartTests
+method org.jfree.chart.LegendItem::createLegendItemBlock(LegendItem):Block need move org.jfree.chart.title.LegendTitle
+method org.jfree.chart.renderer.xy.XYItemRendererState::drawPrimaryLine2(XYItemRendererState, Graphics2D, XYPlot, XYDataset, int, int, int, ValueAxis, ValueAxis, Rectangle2D):void need move org.jfree.experimental.chart.renderer.xy.XYSmoothLineAndShapeRenderer

@@ -1,0 +1,10 @@
+method org.apache.lucene.codecs.TermStats::finishTerm2(TermStats):void need move org.apache.lucene.codecs.lucene41.Lucene41PostingsWriter
+method org.apache.lucene.codecs.FieldsConsumer::flush(String, FieldsConsumer, SegmentWriteState):void need move org.apache.lucene.index.FreqProxTermsWriterPerField
+method org.apache.lucene.search.Collector::score2():float need move org.apache.lucene.facet.search.DrillSidewaysScorer
+method org.apache.lucene.codecs.TermVectorsReader::getSortedDocValues(String):SortedDocValues need move org.apache.lucene.index.SegmentCoreReaders
+method org.apache.lucene.index.AtomicReader::correctBits(AtomicReader, Bits):FixedBitSet need move org.apache.lucene.sandbox.queries.DuplicateFilter
+method org.apache.lucene.store.ByteArrayDataOutput::build2(IntsRef, Iterable<CategoryPath>):Map<String,BytesRef> need move org.apache.lucene.facet.associations.AssociationsListBuilder
+method org.apache.lucene.search.TermQuery::testKeepsLastFilter():void need move org.apache.lucene.sandbox.queries.DuplicateFilterTest
+method org.apache.lucene.index.StoredFieldVisitor::visitDocument2(int, StoredFieldVisitor):void need move org.apache.lucene.codecs.simpletext.SimpleTextStoredFieldsReader
+method org.apache.lucene.index.Fields::addAllDocVectors(Fields, MergeState):void need move org.apache.lucene.codecs.TermVectorsWriter
+method org.apache.lucene.analysis.util.OpenStringBuilder::izeEndings():void need move org.apache.lucene.analysis.en.KStemmer
