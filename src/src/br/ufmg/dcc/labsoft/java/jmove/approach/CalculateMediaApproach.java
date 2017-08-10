@@ -227,7 +227,7 @@ public class CalculateMediaApproach {
 				}
 			});
 
-			//normalize(allClassSimilarity);
+			normalize(allClassSimilarity);
 
 			writeTraceIndications(sourceMethod, allClassSimilarity);
 			// System.out.println("candidate antres de blind   "+candidateMap);
